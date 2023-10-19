@@ -1,4 +1,4 @@
-# Final Projects for CS60013 : Programming and Data Structures
+# Final Projects for MM62201 : Programming and Data Structures
 > Repository for final project allocation and submission for CS60013 : Programming &; Data Structures offered in Autumn 2022 at IIT Kharagpur taught by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
 > This repository might be updated with new projects and/or changes to existing projects. Please check back regularly.
