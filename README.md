@@ -89,11 +89,11 @@ The deadline for the final project submission is **10th November 2022, 23:59 IST
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
 |:---------------------------:|:-----------------------------:|:------------------:|
-| Amar Majhi, Mamta Rani, Reflex Kumar Patel| [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Sanchita |
-| Bhanu Kumar Meena, Syeda Najafara Fathima, Kavin Puri | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Sanchita |
-| Pooja P Jain, Sathishkumar S, P.V.Kamlesh | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Sanchita |
-| Ramkumar K, Chaudhari Saurabh Santosh, Samriddha Das | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Sanchita |
-| Prabhukalyan Dash, Soumita Guria | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
+| ......... | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Sanchita |
+| ......... | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Sanchita |
+| ......... | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Sanchita |
+| ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Sanchita |
+| ......... | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
 
 ## Projects
 
