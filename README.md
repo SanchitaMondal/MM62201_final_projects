@@ -84,7 +84,7 @@
 4. That's it! `Congratulations!!` have successfully submitted your final project.
 
 ### Deadline
-The deadline for the final project submission is **10th November 2022, 23:59 IST**.
+The deadline for the final project submission is **10th November 2023, 23:59 IST**.
 
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
