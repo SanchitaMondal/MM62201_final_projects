@@ -151,7 +151,7 @@ The deadline for the final project submission is **10th November 2023, 23:59 IST
         3. Only keep the data which is relevant to the analysis and drop the rest of the data.
     - `Data Analysis`
         1. In this part, you need to prepare a set of questions and answer them using the data provided.
-        2. Answer `at least 10 questions` using the data provided.
+        2. Answer `at least 15 questions` using the data provided.
         3. A few examples questions to get you started are as follows:
             - Which `crop` has the `highest production` in the country?
             - What are the major `states` where `rice` is grown?
