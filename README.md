@@ -1,11 +1,9 @@
 # Final Projects for CS60013 : Programming and Data Structures
 > Repository for final project allocation and submission for CS60013 : Programming &; Data Structures offered in Autumn 2022 at IIT Kharagpur taught by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
-> **Deadline** for project submission is **10th November 2022 at 23:59 IST**.
-
 > This repository might be updated with new projects and/or changes to existing projects. Please check back regularly.
 
-> Final projects are crafted by [Vinay](https://ummadiviany.github.io/) and [Sai Pavan](https://saipavan-tadem.github.io/) and approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
+> Final projects are approved by [Prof Subhamoy Mandal](https://sites.google.com/site/smandalbiomed/home).
 
 - [Final Projects for CS60013 : Programming and Data Structures](#final-projects-for-cs60013--programming-and-data-structures)
   - [Instructions](#instructions)
@@ -59,10 +57,10 @@
 
 
 ### Instructions to get started with the project
-1. `Fork` this `github.com/ummadiviany/pds_final_projects` repository.
+1. `Fork` this `github.com/SanchitaMondal/MM62201_final_projects` repository.
 2. `Clone` the forked repository to your local machine using the following command:
    ```bash
-   git clone github.com/{your_username}/pds_final_projects
+   git clone github.com/{your_username}/MM62201_final_projects
    ```
 3. Your projects are in the `submissions` directory. You can find the project description in the README.md file of the respective project directory.
 4. Work on the project and make `regular commits` to your local repository and `push` them to your forked repository.
@@ -81,8 +79,8 @@
 
 ### Submission Instructions
 1. Submission of the final project will be done via `GitHub Pull Requests`.
-2. Once you are done with the project, you can create a `Pull Request` to the `main` branch of the `github.com/ummadiviany/pds_final_projects` repository.
-3. We will review your merge request and provide feedback. You can make changes to your code and update the merge request. If accepted, your project will be merged to the `main` branch of the `github.com/ummadiviany/pds_final_projects` repository.
+2. Once you are done with the project, you can create a `Pull Request` to the `main` branch of the `github.com/SanchitaMondal/MM62201_final_projects` repository.
+3. We will review your merge request and provide feedback. You can make changes to your code and update the merge request. If accepted, your project will be merged to the `main` branch of the `github.com/SanchitaMondal/MM62201_final_projects` repository.
 4. That's it! `Congratulations!!` have successfully submitted your final project.
 
 ### Deadline
@@ -91,11 +89,11 @@ The deadline for the final project submission is **10th November 2022, 23:59 IST
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
 |:---------------------------:|:-----------------------------:|:------------------:|
-| Amar Majhi, Mamta Rani, Reflex Kumar Patel| [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Sai Pavan |
-| Bhanu Kumar Meena, Syeda Najafara Fathima, Kavin Puri | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Vinay |
-| Pooja P Jain, Sathishkumar S, P.V.Kamlesh | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Vinay |
-| Ramkumar K, Chaudhari Saurabh Santosh, Samriddha Das | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Vinay |
-| Prabhukalyan Dash, Soumita Guria | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sai Pavan |
+| Amar Majhi, Mamta Rani, Reflex Kumar Patel| [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Sanchita |
+| Bhanu Kumar Meena, Syeda Najafara Fathima, Kavin Puri | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Sanchita |
+| Pooja P Jain, Sathishkumar S, P.V.Kamlesh | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Sanchita |
+| Ramkumar K, Chaudhari Saurabh Santosh, Samriddha Das | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Sanchita |
+| Prabhukalyan Dash, Soumita Guria | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
 
 ## Projects
 
@@ -263,7 +261,7 @@ The deadline for the final project submission is **10th November 2022, 23:59 IST
 ---
 ## Resources
 1. [Python Documentation](https://docs.python.org/3/)
-2. [Class Code Materials](https://github.com/ummadiviany/pds_snippets/)
+2. [Class Code Materials](https://github.com/SanchitaMondal/Introduction-to-programming-MM62201/)
 3. [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/9780262542364/introduction-to-computation-and-programming-using-python/)
 4. [Elements of Programming Interviews in Python]()
 5. Python Libraries
