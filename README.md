@@ -20,6 +20,7 @@
     - [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis)
     - [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis)
     - [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis)
+    - [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis)
   - [Resources](#resources)
   - [All the best!](#all-the-best)
 
@@ -89,11 +90,12 @@ The deadline for the final project submission is **10th November 2023, 23:59 IST
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
 |:---------------------------:|:-----------------------------:|:------------------:|
-| ......... | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Sanchita |
+| ......... | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Anusuiya |
 | ......... | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Sanchita |
-| ......... | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Sanchita |
-| ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Sanchita |
+| ......... | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Anusuiya |
+| ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Anusuiya |
 | ......... | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
+| ......... | [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis) | Sanchita |
 
 ## Projects
 
