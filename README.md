@@ -198,6 +198,7 @@ The deadline for the final project submission is **10th November 2023, 23:59 IST
    
 
 ### Project 4 : Medical Image Visualization and Analysis
+
 1. The project aims to read, visualize and analyze the medical images. The dataset is located in the `data/medical_images/` directory.
 2. The dataset contains medical images of `MRI` and `CT` scans for different anatomical parts of the body. It also contains the `segmentation masks` for the images.
 3. The dataset has
@@ -259,6 +260,33 @@ The deadline for the final project submission is **10th November 2023, 23:59 IST
 3. comment on the statistic calculations and clearly mention your observation 
           
          Note: This section may hold high weightage so write the observations in short and specific to point.
+
+### Project 6 : Impact of Soil Quality on Crop Growth Analysis
+
+1. This project aims to explore how soil quality (nutrients, pH) and weather conditions (temperature, humidity, rainfall) influence different crops. The dataset is located in the `\data\` directory.
+2. By analyzing this data, you will identify patterns and insights that can help to classify the type of crop grown in different regions based on these soil and weather factors.
+3. Go through the data files and understand the data. You can use the `pandas` library to read the csv files and perform analysis on the data.
+4. The project can be divided into the following parts:
+   - `Data Preprocessing`
+     1. `Handling Missing Values`: a) Check for missing values in soil nutrient data (nitrogen, phosphorus, potassium), pH, temperature, humidity, and rainfall.
+        b) Use imputation techniques like mean or median imputation for continuous variables such as nutrient levels, pH, and weather data.
+     2. `Feature Scaling`: a) Normalize the soil nutrient levels, pH, temperature, humidity, and rainfall to bring them onto a comparable scale.
+        This is important for analysis and visualization purposes.
+     3. `Encoding Categorical Data`: a) Convert the categorical feature crop label into numerical form using one-hot encoding or label encoding,
+        so that it can be included in the analysis.
+    - `Data Analysis`
+      1. `Descriptive Statistics`: a) Compute summary statistics (mean, median, min, max) for all continuous features (soil nutrients, pH, temperature, humidity, rainfall)         to understand the distribution of these variables for different crop types.
+      2. `Correlation Analysis`: a) Examine the correlation between features (soil nutrients, pH, temperature, humidity, rainfall) to understand how soil and weather     
+        conditions relate to each other. Use correlation matrices to visualize these relationships.
+    - `Data Visualization`
+      1. `Feature Distributions`: a) Use histograms or box plots to visualize the distribution of key features (nitrogen, phosphorus, potassium, pH, temperature, humidity,           rainfall) across different crop types. This will help in understanding which factors are more prevalent for certain crops.
+      2. `Pair Plots`: a) Generate pair plots to visualize relationships between different features for each crop type. Pair plots can show how soil nutrients and weather           conditions are distributed across crops and how they might interact with each other.
+      3. `Heatmap for Correlation`: a) Create a heatmap to show the correlation between features (soil nutrients, pH, temperature, humidity, and rainfall).
+         This will highlight strong correlations between variables that may influence crop type classification.
+      4. `Bar Charts for Crop Type Distribution`: a) Use bar charts to visualize the distribution of the crop type across different ranges of soil and weather features.
+         For example, you can create bar charts showing the count of each crop type at various pH levels or nitrogen concentrations.
+      5. `Scatter Plots`: a) Plot scatter plots with soil nutrients (e.g., nitrogen vs. phosphorus) on the axes, color-coded by crop type, to visually assess which crops             prefer specific soil nutrient combinations.
+        
 
 ---
 ## Resources
