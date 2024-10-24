@@ -85,7 +85,7 @@
 4. That's it! `Congratulations!!` have successfully submitted your final project.
 
 ### Deadline
-The deadline for the final project submission is **10th November 2023, 23:59 IST**.
+The deadline for the final project submission is **10th November 2024, 23:59 IST**.
 
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
@@ -263,7 +263,7 @@ The deadline for the final project submission is **10th November 2023, 23:59 IST
 
 ### Project 6 : Impact of Soil Quality on Crop Growth Analysis
 
-1. This project aims to explore how soil quality (nutrients, pH) and weather conditions (temperature, humidity, rainfall) influence different crops. The dataset is located in the `\data\` directory.
+1. This project aims to explore how soil quality (nutrients, pH) and weather conditions (temperature, humidity, rainfall) influence different crops. The dataset is located in the `data/crop_growth/` directory.
 2. By analyzing this data, you will identify patterns and insights that can help to classify the type of crop grown in different regions based on these soil and weather factors.
 3. Go through the data files and understand the data. You can use the `pandas` library to read the csv files and perform analysis on the data.
 4. The project can be divided into the following parts:
