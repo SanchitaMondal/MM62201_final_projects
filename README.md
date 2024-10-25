@@ -341,7 +341,7 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
    - `Data Visualization`
      * `Feature Distributions`: Visualize the distribution of key features like BMI, and blood pressure across PCOS and non-PCOS groups using histograms or box plots.
      * `Clustering Analysis`: Use clustering techniques like KMeans or hierarchical clustering to identify patterns or groups within the dataset. You can use `sklearn.cluster` for kmeans clustering.
-     * `Feature Importance Visualization`: Use a machine learning model like a Decision Tree or Random Forest to identify the most important features contributing to PCOS and visualize them using bar plots by using 'scikit-learn' library.
+     * `Feature Importance Visualization`: Use a machine learning model like a Decision Tree or Random Forest to identify the most important features contributing to PCOS and visualize them using bar plots by using `scikit-learn` library.
 6. Remember, the analysis part is open-ended. You can come up with your own analysis ideas and implement them.
 ---
 ## Resources
