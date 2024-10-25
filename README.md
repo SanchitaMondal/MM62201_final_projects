@@ -268,7 +268,7 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
 3. Go through the data files and understand the data. You can use the `pandas` library to read the csv files and perform analysis on the data.
 4. The project can be divided into the following parts:
    - `Data Preprocessing`
-     1. `Handling Missing Values`: a) Check for missing values in soil nutrient data (nitrogen, phosphorus, potassium), pH, temperature, humidity, and rainfall.
+     1. `Handling Missing Values`: a) Check for missing values in soil nutrient data (nitrogen, phosphorus, potassium), pH, temperature, humidity, and rainfall. 
         b) Use imputation techniques like mean or median imputation for continuous variables such as nutrient levels, pH, and weather data.
      2. `Feature Scaling`: a) Normalize the soil nutrient levels, pH, temperature, humidity, and rainfall to bring them onto a comparable scale.
         This is important for analysis and visualization purposes.
@@ -286,6 +286,9 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
       4. `Bar Charts for Crop Type Distribution`: a) Use bar charts to visualize the distribution of the crop type across different ranges of soil and weather features.
          For example, you can create bar charts showing the count of each crop type at various pH levels or nitrogen concentrations.
       5. `Scatter Plots`: a) Plot scatter plots with soil nutrients (e.g., nitrogen vs. phosphorus) on the axes, color-coded by crop type, to visually assess which crops             prefer specific soil nutrient combinations.
+5. You can use the `pandas` library for handling missing data, imputation, encoding, and descriptive statistics.
+6. For scaling features and encoding categorical data, you can use `scikit-learn` library.
+7. The `seaborn` and `matplotlib` library is used for creating visualizations like pair plots, heatmaps, bar charts, scatter plots, and histograms.
         
 
 ---
