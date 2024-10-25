@@ -30,7 +30,7 @@
 ## Instructions
 
 ### General Instructions
-1. The project is to be done in groups of 3 students except (5th group). The students are expected to work together collaboratively.
+1. The project is to be done in groups of 4 students except (8th group). The students are expected to work together collaboratively.
 2. The choice of programming language is left to the students. However, the most common languages used are Python and C/C++.
 3. Each group will be assigned a mentor TA who will be responsible for guiding the group throughout the project.
 4. Meetings with the mentor TA will be scheduled at the beginning of the project and at regular intervals.
@@ -85,7 +85,7 @@
 4. That's it! `Congratulations!!` have successfully submitted your final project.
 
 ### Deadline
-The deadline for the final project submission is **10th November 2024, 23:59 IST**.
+The deadline for the final project submission is **_th November 2024, 23:59 IST**.
 
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
@@ -96,10 +96,12 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
 | ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Anusuiya |
 | ......... | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
 | ......... | [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis) | Sanchita |
+| ......... | [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data) | Sanchita |
 
 ## Projects
 
 ### Project 1 : Medical Transcription Analysis
+
 1. The project aims to analyse the medical transcription dataset. The dataset is located in the `data/medical_transcriptions/mtsamples.csv` directory.
 2. The dataset is a `csv` file. `CSV` stands for `C`omma `S`eparated `V`alues. It is a simple file format used to store tabular data, such as a spreadsheet or database. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.
 3. The dataset contains following fields : 
@@ -129,6 +131,7 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
         2. Everyone likes to see the results in the form of `graphs` and `charts`. So, make sure you visualize the answers to the questions you asked in the previous part.
 
 ### Project 2 : Agriculture Crop Production Analysis
+
 1. This project aims to analyse the crop production data from 2006 to 2011 from all the states of India. The dataset is located in the `data/crop_production/` directory. 
 2. The data directory contains 5 csv files. Go through the data files and understand the data.
 3. Different data files contain different types of data. For example `datafile_1.csv` contains the following fields:
@@ -167,6 +170,7 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
 
 
 ### Project 3 : ISBI 2022 Accepted Submissions Analysis
+
 1. The project aims to analyse the accepted submissions of ISBI 2022. The dataset is located in the `data/isbi2022/` directory. 
 2. The dataset comprised of multiple `json` files. `JSON` stands for `J`avaScript `O`bject `N`otation. It is a lightweight data-interchange format. It is easy for humans to read and write. 
 3. Each json file contain the information about multiple papers(about 100 papers in each). The information about the paper is stored in the form of key-value pairs. `JSON` is all about key-value pairs (aka `dictionaries` in Python).
@@ -268,28 +272,50 @@ The deadline for the final project submission is **10th November 2024, 23:59 IST
 3. Go through the data files and understand the data. You can use the `pandas` library to read the csv files and perform analysis on the data.
 4. The project can be divided into the following parts:
    - `Data Preprocessing`
-     1. `Handling Missing Values`: a) Check for missing values in soil nutrient data (nitrogen, phosphorus, potassium), pH, temperature, humidity, and rainfall. 
+     * `Handling Missing Values`: a) Check for missing values in soil nutrient data (nitrogen, phosphorus, potassium), pH, temperature, humidity, and rainfall. 
         b) Use imputation techniques like mean or median imputation for continuous variables such as nutrient levels, pH, and weather data.
-     2. `Feature Scaling`: a) Normalize the soil nutrient levels, pH, temperature, humidity, and rainfall to bring them onto a comparable scale.
+     * `Feature Scaling`: a) Normalize the soil nutrient levels, pH, temperature, humidity, and rainfall to bring them onto a comparable scale.
         This is important for analysis and visualization purposes.
-     3. `Encoding Categorical Data`: a) Convert the categorical feature crop label into numerical form using one-hot encoding or label encoding,
+     * `Encoding Categorical Data`: a) Convert the categorical feature crop label into numerical form using one-hot encoding or label encoding,
         so that it can be included in the analysis.
     - `Data Analysis`
-      1. `Descriptive Statistics`: a) Compute summary statistics (mean, median, min, max) for all continuous features (soil nutrients, pH, temperature, humidity, rainfall)         to understand the distribution of these variables for different crop types.
-      2. `Correlation Analysis`: a) Examine the correlation between features (soil nutrients, pH, temperature, humidity, rainfall) to understand how soil and weather     
-        conditions relate to each other. Use correlation matrices to visualize these relationships.
+      * `Descriptive Statistics`: a) Compute summary statistics (mean, median, min, max) for all continuous features (soil nutrients, pH, temperature, humidity, rainfall)           to understand the distribution of these variables for different crop types.
+      * `Correlation Analysis`: a) Examine the correlation between features (soil nutrients, pH, temperature, humidity, rainfall) to understand how soil and weather     
+         conditions relate to each other. Use correlation matrices to visualize these relationships.
     - `Data Visualization`
-      1. `Feature Distributions`: a) Use histograms or box plots to visualize the distribution of key features (nitrogen, phosphorus, potassium, pH, temperature, humidity,           rainfall) across different crop types. This will help in understanding which factors are more prevalent for certain crops.
-      2. `Pair Plots`: a) Generate pair plots to visualize relationships between different features for each crop type. Pair plots can show how soil nutrients and weather           conditions are distributed across crops and how they might interact with each other.
-      3. `Heatmap for Correlation`: a) Create a heatmap to show the correlation between features (soil nutrients, pH, temperature, humidity, and rainfall).
+      * `Feature Distributions`: a) Use histograms or box plots to visualize the distribution of key features (nitrogen, phosphorus, potassium, pH, temperature, humidity,           rainfall) across different crop types. This will help in understanding which factors are more prevalent for certain crops.
+      * `Pair Plots`: a) Generate pair plots to visualize relationships between different features for each crop type. Pair plots can show how soil nutrients and weather           conditions are distributed across crops and how they might interact with each other.
+      * `Heatmap for Correlation`: a) Create a heatmap to show the correlation between features (soil nutrients, pH, temperature, humidity, and rainfall).
          This will highlight strong correlations between variables that may influence crop type classification.
-      4. `Bar Charts for Crop Type Distribution`: a) Use bar charts to visualize the distribution of the crop type across different ranges of soil and weather features.
+      * `Bar Charts for Crop Type Distribution`: a) Use bar charts to visualize the distribution of the crop type across different ranges of soil and weather features.
          For example, you can create bar charts showing the count of each crop type at various pH levels or nitrogen concentrations.
-      5. `Scatter Plots`: a) Plot scatter plots with soil nutrients (e.g., nitrogen vs. phosphorus) on the axes, color-coded by crop type, to visually assess which crops             prefer specific soil nutrient combinations.
+      * `Scatter Plots`: a) Plot scatter plots with soil nutrients (e.g., nitrogen vs. phosphorus) on the axes, color-coded by crop type, to visually assess which crops             prefer specific soil nutrient combinations.
 5. You can use the `pandas` library for handling missing data, imputation, encoding, and descriptive statistics.
 6. For scaling features and encoding categorical data, you can use `scikit-learn` library.
 7. The `seaborn` and `matplotlib` library is used for creating visualizations like pair plots, heatmaps, bar charts, scatter plots, and histograms.
+8. You can try to develop a classification model to predict crop types based on soil and weather features and evaluate their performance. Although, we do not expect you to build the classification model, you can try it if you want to.
         
+### Project 7 : Plant Disease Analysis Using Leaf Image Data
+
+1. The aim of this project is to identify plant diseases from images of leaves using image processing and machine learning techniques.
+2. By analyzing the key visual differences between healthy and diseased plant leaves, the project aims to automate disease detection, which can help farmers and agricultural experts identify problems early and take action to improve crop health.
+3. This project can be divided into the following parts:
+   - `Image Processing`
+     * `Image Resizing`: Resize all images to a uniform dimension (e.g., 128x128 or 256x256 pixels) to ensure consistent input size across the dataset.
+       This step ensures that the images are compatible with deep learning models, which require fixed input dimensions.
+       You can use `OpenCV` or `PIL` (Python Imaging Library) to resize the images.
+     * `Normalization`: Scale pixel values from a range of 0-255 to 0-1. This ensures that the features (pixel values) are on a comparable scale, which aids in faster and better model convergence during training.
+   - `Data Analysis`
+     * `Statistical Analysis`: Perform descriptive statistical analysis of the dataset to explore the distribution of images across different disease categories. This includes computing the number of samples per disease class and assessing whether there are any class imbalances (i.e., some diseases having significantly more samples than others).
+     * `Pixel Intensity Analysis`: Examine the pixel intensity values of the images to identify key differences between healthy and diseased leaves.
+       This analysis involves comparing pixel distributions (e.g., histograms of pixel values) for each class to see if certain patterns (such as darker or lighter regions) are characteristic of diseases.
+     * You can use `pandas` to analyze class distributions and check for imbalances.
+   - `Data Visualization`
+     * `Image Grid Visualization`: Create grids of sample images for each disease class to visually assess the variations within and across the classes.
+        This helps in identifying visual patterns, such as texture or color differences, that may be indicative of disease. To create image grids, you can use `matplotlib` library.
+     * `Dimensionality Reduction (PCA or t-SNE)`: Apply dimensionality reduction techniques such as PCA (Principal Component Analysis) or t-SNE (t-distributed Stochastic Neighbor Embedding) to reduce the high-dimensional image data to 2D or 3D space. This allows for visualization of the relationships between images and how different diseases cluster together. You can use `scikit-learn` library to perform PCA or t-SNE for feature reduction.
+4. Remember, the analysis part is open-ended. You can come up with your own analysis ideas and implement them.
+5. You can try to develop a deep learning model for plant disease detection and evaluate their performance. Although, we do not expect you to build the detection model, you can try it if you want to.
 
 ---
 ## Resources
