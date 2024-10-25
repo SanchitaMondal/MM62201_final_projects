@@ -93,7 +93,7 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
 |     Students                            | Project                |  Mentor TA    |
 |:---------------------------:|:-----------------------------:|:------------------:|
 | ......... | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Anusuiya |
-| ......... | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Sanchita |
+| ......... | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Anusuiya |
 | ......... | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Anusuiya |
 | ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Anusuiya |
 | ......... | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
@@ -300,7 +300,7 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
         
 ### Project 7 : Plant Disease Analysis Using Leaf Image Data
 
-1. The aim of this project is to identify plant diseases from images of leaves using image processing and machine learning techniques.
+1. The aim of this project is to identify plant diseases from images of leaves using image processing and machine learning techniques. The dataset is located in the `data/plant_disease/` directory.
 2. By analyzing the key visual differences between healthy and diseased plant leaves, the project aims to automate disease detection, which can help farmers and agricultural experts identify problems early and take action to improve crop health.
 3. This project can be divided into the following parts:
    - `Image Processing`
@@ -325,8 +325,8 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
 1. The aim of this project is to analyze data related to Polycystic Ovary Syndrome (PCOS), a hormonal disorder affecting women of reproductive age.
 2. The analysis will explore the relationship between various clinical, demographic, and lifestyle factors with the occurrence of PCOS.
 3. This project also aims to identify patterns that may help in early detection and understanding of contributing factors for PCOS.
-4. The dataset may include clinical and demographic features such as:
-   - Clinical Features: BMI, blood pressure, blood glucose, FSH/LH ratio, menstrual cycle length, etc.
+4. The dataset is located in the `data/pcos_data/` directory. The dataset may include clinical and demographic features such as:
+   - Clinical Features: BMI, blood pressure, FSH/LH ratio, menstrual cycle length, etc.
    - Demographic Features: Age, marital status.
    - Lifestyle Factors: Fast food(Yes/No), Regular exercise habits.
    - Labels: PCOS (Yes/No).
@@ -336,8 +336,13 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
      * ` Data Balancing`: If there is a class imbalance (e.g., significantly more non-PCOS cases), apply techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the classes using `imblearn.over_sampling` library.
    - `Data Analysis`
      * `Descriptive Analysis`: Compute summary statistics (mean, median, standard deviation) for clinical features such as BMI, and blood glucose.
-     * ``
-
+     * `Correlation Analysis`: Assess relationships between features and their influence on PCOS. Use correlation matrices to visualize these relationships. You can use `seaborn` library for visualization.
+     * `Statistical Testing`: Use hypothesis testing (e.g., Chi-Square Test, ANOVA) to examine the association between categorical variables (e.g., Pregnant) and the presence of PCOS. The `scipy.stats` can be used for this testing.
+   - `Data Visualization`
+     * `Feature Distributions`: Visualize the distribution of key features like BMI, and blood pressure across PCOS and non-PCOS groups using histograms or box plots.
+     * `Clustering Analysis`: Use clustering techniques like KMeans or hierarchical clustering to identify patterns or groups within the dataset. You can use `sklearn.cluster` for kmeans clustering.
+     * `Feature Importance Visualization`: Use a machine learning model like a Decision Tree or Random Forest to identify the most important features contributing to PCOS and visualize them using bar plots by using 'scikit-learn' library.
+6. Remember, the analysis part is open-ended. You can come up with your own analysis ideas and implement them.
 ---
 ## Resources
 1. [Python Documentation](https://docs.python.org/3/)
