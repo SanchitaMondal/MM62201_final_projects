@@ -21,6 +21,7 @@
     - [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis)
     - [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis)
     - [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis)
+    - [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data)
   - [Resources](#resources)
   - [All the best!](#all-the-best)
 
