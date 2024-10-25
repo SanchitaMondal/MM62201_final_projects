@@ -30,7 +30,7 @@
 ## Instructions
 
 ### General Instructions
-1. The project is to be done in groups of 4 students except (8th group). The students are expected to work together collaboratively.
+1. The project is to be done in groups of 3 students. The students are expected to work together collaboratively.
 2. The choice of programming language is left to the students. However, the most common languages used are Python and C/C++.
 3. Each group will be assigned a mentor TA who will be responsible for guiding the group throughout the project.
 4. Meetings with the mentor TA will be scheduled at the beginning of the project and at regular intervals.
