@@ -22,6 +22,7 @@
     - [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis)
     - [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis)
     - [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data)
+    - [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization)
   - [Resources](#resources)
   - [All the best!](#all-the-best)
 
@@ -98,6 +99,7 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
 | ......... | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
 | ......... | [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis) | Sanchita |
 | ......... | [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data) | Sanchita |
+| ......... | [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization) | Sanchita |
 
 ## Projects
 
@@ -317,6 +319,24 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
      * `Dimensionality Reduction (PCA or t-SNE)`: Apply dimensionality reduction techniques such as PCA (Principal Component Analysis) or t-SNE (t-distributed Stochastic Neighbor Embedding) to reduce the high-dimensional image data to 2D or 3D space. This allows for visualization of the relationships between images and how different diseases cluster together. You can use `scikit-learn` library to perform PCA or t-SNE for feature reduction.
 4. Remember, the analysis part is open-ended. You can come up with your own analysis ideas and implement them.
 5. You can try to develop a deep learning model for plant disease detection and evaluate their performance. Although, we do not expect you to build the detection model, you can try it if you want to.
+
+### Project 8 : PCOS Data Analysis and Visualization
+
+1. The aim of this project is to analyze data related to Polycystic Ovary Syndrome (PCOS), a hormonal disorder affecting women of reproductive age.
+2. The analysis will explore the relationship between various clinical, demographic, and lifestyle factors with the occurrence of PCOS.
+3. This project also aims to identify patterns that may help in early detection and understanding of contributing factors for PCOS.
+4. The dataset may include clinical and demographic features such as:
+   - Clinical Features: BMI, blood pressure, blood glucose, FSH/LH ratio, menstrual cycle length, etc.
+   - Demographic Features: Age, marital status.
+   - Lifestyle Factors: Fast food(Yes/No), Regular exercise habits.
+   - Labels: PCOS (Yes/No).
+5. This project is divided into the following parts:
+   - `Data Preprocessing`
+     * ` Handling Missing Values` : Identify and handle any missing or NaN values in the dataset using imputation or removal methods. You can use `Pandas` and `Scikit-learn` library.
+     * ` Data Balancing`: If there is a class imbalance (e.g., significantly more non-PCOS cases), apply techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance the classes using `imblearn.over_sampling` library.
+   - `Data Analysis`
+     * `Descriptive Analysis`: Compute summary statistics (mean, median, standard deviation) for clinical features such as BMI, and blood glucose.
+     * ``
 
 ---
 ## Resources
