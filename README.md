@@ -353,66 +353,54 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
 
 ### Project 9 : Mushroom Edibility Classification Using Data Analysis and Visualization
 
-1. The goal of this project is to analyze a dataset containing descriptions of various mushroom species, focusing on the identification of features that distinguish between edible and poisonous mushrooms.
+1. The goal of this project is to analyze a dataset containing descriptions of various mushroom species, focusing on the identification of features that distinguish between edible and poisonous mushrooms. Find the dataset at - https://archive.ics.uci.edu/dataset/73/mushroom
 2. The project will involve handling missing values, performing descriptive and correlation analyses, and generating insightful visualizations to understand which characteristics are most associated with edibility or toxicity.
 3. This project is divided into the following parts:
    - `Data Preprocessing`:
     * `Handling Missing Values`: Identify and treat missing values by using imputation techniques such as mode imputation, given the categorical nature of the dataset.
     * `Encoding Categorical Data`: Convert all categorical variables to numerical format (e.g., one-hot encoding or label encoding) to enable analysis using the `Scikit-learn` library.
-Balancing Classes: If the dataset shows an imbalance in edible vs. poisonous mushrooms, use resampling techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance classes.
-Data Analysis:
-
-Analyze the distribution of various features (e.g., cap shape, color, odor) and their relationship to mushroom edibility.
-Identify significant characteristics that correlate strongly with edibility or toxicity.
-Calculate summary statistics to better understand common traits in poisonous versus edible mushrooms.
-Data Visualization:
-
-Create visualizations (such as bar plots, box plots, and heatmaps) to illustrate differences in key features between edible and poisonous mushrooms.
-Use correlation matrices and pair plots to explore relationships among variables and potential predictive features.
-Generate decision tree visualizations for identifying high-risk or low-risk attributes, if possible.
+    * `Balancing Classes`: If the dataset shows an imbalance in edible vs. poisonous mushrooms, use resampling techniques like SMOTE (Synthetic Minority Over-sampling Technique) to balance classes using 'imblearn' library.
+  - `Data Analysis`:
+    * `Descriptive Statistics`: Calculate summary statistics to identify common features associated with edible and poisonous mushrooms.
+    * `Correlation Analysis`: Compute correlations among categorical features to identify potential relationships or patterns with mushroom edibility.
+    * `Chi-Square Tests`: Perform chi-square tests on categorical variables to determine which features are statistically significant in distinguishing between poisonous and edible mushrooms using `scipy.stats` library.
+  - `Data Visualization`:
+    * `Feature Distributions`: Create bar plots and box plots to illustrate the distribution of individual features (e.g., cap shape, odor, gill size) across edible and poisonous mushrooms utilizing `matplotlib` library.
+    * `Correlation Matrix Heatmap`: Display a heatmap of correlations between features to visually identify relationships among attributes and potential indicators of edibility.
+    * `Pair Plot`: Use pair plots to see how combinations of features vary between edible and poisonous mushrooms, which can reveal unique patterns using python libraries.
+    * `Decision Tree Visualization`: If a decision tree model is used, visualize the tree to illustrate decision-making criteria and the most relevant features associated with edibility.
+4. Remember, the analysis part is open-ended. You can come up with your own analysis ideas and implement them.
 
 ### Project 10 : Diabetes Type Classification
 
-1. Extract the diabetes data from the compressed file (`diabetes-data.tar.Z`) and load it into a
-suitable format (e.g., CSV, Pandas DataFrames).
-2. Learn how to work with archived and compressed files, data extraction, and loading
-datasets.
+1. Extract the diabetes data from the compressed file (`diabetes-data.tar.Z`) and load it into a suitable format (e.g., CSV, Pandas DataFrames). You can find the dataset at - https://archive.ics.uci.edu/dataset/34/diabetes
+2. Learn how to work with archived and compressed files, data extraction, and loading datasets.
 3. Understand the dataset structure, variable types, missing values, and basic statistics.
-4. A summary report of data types, distributions, and any missing values, along with a
-preliminary understanding of the dataset.
-5. The dataset link :- https://archive.ics.uci.edu/dataset/34/diabetes :- is provided .the
-dataset may include clinical features such as:- it contains the distribution for 70 sets
-of data recorded on diabetes patients (several weeks&#39; to months&#39; worth of glucose,
-insulin, and lifestyle data per patient + a description of the problem domain).
-6. using this dataset we can use for the  Diabetes Type Classification: For datasets
-including Type 1 and Type 2 diabetes patients, you could classify patients by
+4. A summary report of data types, distributions, and any missing values, along with a preliminary understanding of the dataset.
+6. The dataset may include clinical features such as:- it contains the distribution for 70 sets of data recorded on diabetes patients (several weeks `to months` worth of glucose, insulin, and lifestyle data per patient + a description of the problem domain).
+7. using this dataset we can use for the  Diabetes Type Classification: For datasets including Type 1 and Type 2 diabetes patients, you could classify patients by
 diabetes type based on their glucose and insulin response patterns.
-7. The project is divided into following parts:-
- Data Preprocessing and Cleaning:- Clean and preprocess the data to make it
-suitable for analysis. This includes handling missing values, outliers, and any
+8. The project is divided into following parts:
+   - `Data Preprocessing and Cleaning`: Clean and preprocess the data to make it suitable for analysis. This includes handling missing values, outliers, and any
 necessary transformations (e.g., normalizing glucose levels).
- Exploratory Data Analysis (EDA):- Conduct exploratory data analysis to identify
-patterns and relationships among features such as glucose, insulin, and lifestyle
+   - `Exploratory Data Analysis (EDA)`: Conduct exploratory data analysis to identify patterns and relationships among features such as glucose, insulin, and lifestyle
 factors.
- Classification Task:- Define blood glucose levels as categorical variables (e.g., low,
-normal, high) and build a classification model to predict these levels.
- Regression Task – Predicting Continuous Glucose Levels -- Build a regression model
-to predict continuous glucose levels based on lifestyle and insulin data.
- Model Evaluation and Tuning:- Fine-tune the models built (classification, regression,
-or time-series) and evaluate their performance on a test dataset.
-8. Final Report and Presentation :- Compile the analysis, results, and insights into a
-structured report and prepare a presentation.
+   - `Classification Task`: Define blood glucose levels as categorical variables (e.g., low, normal, high) and build a classification model to predict these levels.
+   - `Regression Task`: Predicting Continuous Glucose Levels -- Build a regression model to predict continuous glucose levels based on lifestyle and insulin data.
+   - `Model Evaluation and Tuning`:- Fine-tune the models built (classification, regression, or time-series) and evaluate their performance on a test dataset.
+10. Compile the analysis, results, and insights into a structured report and prepare a presentation.
 
 ### Project 11: Predicting Maternal Health Risk
 
 1. Data Loading and Initial Exploration: Load the Excel file containing the maternal health dataset and conduct an initial exploration to understand its structure and contents.
 2. Understand the dataset structure, data types, and basic statistics for each feature.
 3. A brief summary report with initial findings on data types, any missing values, and basic statistical measures (mean, median, etc.) for each feature.
-4. The dataset link - https://archive.ics.uci.edu/dataset/863/maternal+health+risk is provided the dataset may include clinical features such as:- Age, Systolic Blood Pressure as SystolicBP, Diastolic BP as DiastolicBP, Blood Sugar as BS, Body Temperature as BodyTemp, HeartRate and RiskLevel. All these are the responsible and significant risk factors for maternal mortality, that is one of the main concern of SDG of UN.
-5. The project is divided into following parts:-
-   - Data Preprocessing and Cleaning: A pre-processed dataset with no missing values or inconsistencies, ready for further analysis.
-   - Data Analysis: including visualization (e.g., histograms, scatter plots, box plots) and calculating correlations between features.
-   - Classification Task – Predicting Maternal Health Risk Level: Learn classification algorithms such as logistic regression, decision trees, random forests, or support vector machines, and evaluate model performance.
+4. The dataset link ( https://archive.ics.uci.edu/dataset/863/maternal+health+risk ) is provided.
+5. The dataset may include clinical features such as:- Age, Systolic Blood Pressure as SystolicBP, Diastolic BP as DiastolicBP, Blood Sugar as BS, Body Temperature as BodyTemp, HeartRate and RiskLevel. All these are the responsible and significant risk factors for maternal mortality, that is one of the main concern of SDG of UN.
+6. The project is divided into following parts:-
+   - `Data Preprocessing and Cleaning`: A pre-processed dataset with no missing values or inconsistencies, ready for further analysis.
+   - `Data Analysis` is including visualization (e.g., histograms, scatter plots, box plots) and calculating correlations between features.
+   - `Classification Task`: Predicting Maternal Health Risk Level: Learn classification algorithms such as logistic regression, decision trees, random forests, or support vector machines, and evaluate model performance.
    - Build a classification model to predict the risk level (low, medium, or high) based on the health features provided.
 7. Model Tuning and Optimization : Optimize the classification model by tuning hyperparameters and using techniques such as cross-validation.
 8. For report writing, compile the analysis, and results.
