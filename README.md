@@ -103,9 +103,9 @@ The deadline for the final project submission is **_th November 2024, 23:59 IST*
 | ......... | [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis) | Sanchita |
 | ......... | [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data) | Sanchita |
 | ......... | [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization) | Sanchita |
-| ......... | [Project 9 : Mushroom Edibility Classification Using Data Analysis and Visualization](#project-9--mushroom-edibility-classification-using-data-analysis-and-visualization)
-| ......... | [Project 10 : Diabetes Type Classification](#project-10--diabetes-type-classification)
-| ......... | [Project 11: Predicting Maternal Health Risk](#project-11--predicting-maternal-health-risk)
+| ......... | [Project 9 : Mushroom Edibility Classification Using Data Analysis and Visualization](#project-9--mushroom-edibility-classification-using-data-analysis-and-visualization) | Sanchita |
+| ......... | [Project 10 : Diabetes Type Classification](#project-10--diabetes-type-classification) | Anusuiya |
+| ......... | [Project 11: Predicting Maternal Health Risk](#project-11--predicting-maternal-health-risk) | Anusuiya |
 
 
 ## Projects
