@@ -106,7 +106,7 @@ The deadline for the final project submission is 27th November 2024, 23:59 IST**
 | ......... | [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization) | Sanchita |
 | 24AG62R05, 24AG62R17 | [Project 9 : Mushroom Edibility Classification Using Data Analysis and Visualization](#project-9--mushroom-edibility-classification-using-data-analysis-and-visualization) | Sanchita |
 | 24MM60002, 24MM60011, 24MM60003 | [Project 10 : Diabetes Type Classification](#project-10--diabetes-type-classification) | Anusuiya |
-| ......... | [Project 11: Predicting Maternal Health Risk](#project-11--predicting-maternal-health-risk) | Anusuiya |
+| 24MM60015, 24MM60010, 24MM60007 | [Project 11: Predicting Maternal Health Risk](#project-11--predicting-maternal-health-risk) | Anusuiya |
 | 24MM91R12, 24MM60012, 24MM60006| [Project 12: DYNAMICS OF REDUCED INDEPENDENCE POLYNOMIALS](#project-12--DYNAMICS-OF-REDUCED-INDEPENDENCE-POLYNOMIALS) | SELF |
 
 
