@@ -96,16 +96,16 @@ The deadline for the final project submission is 27th November 2024, 23:59 IST**
 ## Project Allocation
 |     Students                            | Project                |  Mentor TA    |
 |:---------------------------:|:-----------------------------:|:------------------:|
-| ......... | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Anusuiya |
-| ......... | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Anusuiya |
-| ......... | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Anusuiya |
-| ......... | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Anusuiya |
+|  | [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis) | Anusuiya |
+|  | [Project 1 : Medical Transcription Analysis](#project-1--medical-transcription-analysis) | Anusuiya |
+|  | [Project 3 : ISBI 2022 Accepted Submissions Analysis](#project-3--isbi-2022-accepted-submissions-analysis) | Anusuiya |
+|  | [Project 2 : Agriculture Crop Production Analysis](#project-2--agriculture-crop-production-analysis) | Anusuiya |
 | 24MM60005, 24MM60009, 24MM60008, 24MM6013 | [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis) | Sanchita |
 | 24AG62R10, 24AG62R16, 24AG62R15 | [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis) | Sanchita |
 | 24AG66R12, 24AG66R13, 24AG66R07 | [Project 6.1 : Impact of Soil Quality on Crop Growth Analysis and Model Building](#project-6--impact-of-soil-quality-on-crop-growth-analysis-and-model-building) | SELF |
 | 24AG66R08, 24AG66R06 | [Project 6.2 : Impact of Soil Quality on Crop Growth Analysis and Building of An Application](#project-6--impact-of-soil-quality-on-crop-growth-analysis-and-building-of-an-application) | SELF |
 | 24AG62R19, 24AG62R11, 24AG62R14 | [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data) | Sanchita |
-| ......... | [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization) | Sanchita |
+|  | [Project 8 : PCOS Data Analysis and Visualization](#project-8--PCOS-data-analysis-and-visualization) | Sanchita |
 | 24AG62R05, 24AG62R17 | [Project 9 : Mushroom Edibility Classification Using Data Analysis and Visualization](#project-9--mushroom-edibility-classification-using-data-analysis-and-visualization) | Sanchita |
 | 24MM60002, 24MM60011, 24MM60003 | [Project 10 : Diabetes Type Classification](#project-10--diabetes-type-classification) | Anusuiya |
 | 24MM60015, 24MM60010, 24MM60007 | [Project 11: Predicting Maternal Health Risk](#project-11--predicting-maternal-health-risk) | Anusuiya |
